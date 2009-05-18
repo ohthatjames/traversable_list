@@ -1,0 +1,13 @@
+A proof of concept for traversing lists using the keyboard, written in JQuery. Click on an element to select it, then use 'w' and 's' to move up and down the list. You can bind other keys.
+
+It requires the hotkeys plugin: http://code.google.com/p/js-hotkeys/
+
+Sample usage:
+
+$(document).ready(function() {
+	$('ul').traversableList({
+		bindings: {
+			'a': function(elem){ alert("You pressed a")}
+		}
+	})
+})
