@@ -4,6 +4,8 @@ It requires the hotkeys plugin: http://code.google.com/p/js-hotkeys/
 
 Sample usage:
 
+Javascript:
+
 $(document).ready(function() {
 	$('ul').traversableList({
 		bindings: {
@@ -11,3 +13,9 @@ $(document).ready(function() {
 		}
 	})
 })
+
+CSS:
+
+.selected {
+  background-color: red;
+}
